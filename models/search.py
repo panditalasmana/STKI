@@ -31,7 +31,12 @@ def preprocessing(text):
 # APPLY PREPROCESSING
 # =========================
 
-df['processed'] = df['deskripsi'].apply(preprocessing)
+df['combined'] = (
+    df['nama_laptop'] + " " +
+    df['deskripsi']
+)
+
+df['processed'] = df['combined'].apply(preprocessing)
 
 # =========================
 # TF-IDF
@@ -63,8 +68,14 @@ def search_laptop(query):
         tfidf_matrix
     ).flatten()
 
-    # TOP 10 RESULT
-    top_indices = similarity.argsort()[::-1][:10]
+    # URUTKAN SIMILARITY
+    top_indices = similarity.argsort()[::-1]
+
+   # FILTER YANG SCORE > 0
+    top_indices = [
+         i for i in top_indices
+       if similarity[i] > 0
+      ][:10]
 
     results = []
 
@@ -82,7 +93,9 @@ def search_laptop(query):
 
             "deskripsi": df.iloc[idx]["deskripsi"],
 
-            "score": round(similarity[idx], 3)
+            "score": round(similarity[idx], 3),
+
+            "image": df.iloc[idx]["image"]
 
         })
 

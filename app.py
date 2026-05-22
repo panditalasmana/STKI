@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from models.search import search_laptop
+from laptop_parser import parse_laptop_specs
 import pandas as pd
 
 app = Flask(__name__)
@@ -36,7 +37,9 @@ def index():
 
             "harga": f"Rp {row['harga']:,}".replace(",", "."),
 
-            "deskripsi": row["deskripsi"]
+            "deskripsi": row["deskripsi"],
+
+            "image": row["image"],
 
         })
 
@@ -56,55 +59,16 @@ def index():
 
     evaluation_data = [
 
-        {
-            "query": "laptop gaming",
-            "precision": 0.8
-        },
-
-        {
-            "query": "laptop mahasiswa",
-            "precision": 0.7
-        },
-
-        {
-            "query": "laptop editing",
-            "precision": 0.9
-        },
-
-        {
-            "query": "laptop murah",
-            "precision": 0.6
-        },
-
-        {
-            "query": "laptop RTX",
-            "precision": 0.9
-        },
-
-        {
-            "query": "laptop office",
-            "precision": 0.8
-        },
-
-        {
-            "query": "laptop desain grafis",
-            "precision": 0.8
-        },
-
-        {
-            "query": "laptop tipis",
-            "precision": 0.7
-        },
-
-        {
-            "query": "laptop coding",
-            "precision": 0.8
-        },
-
-        {
-            "query": "laptop SSD",
-            "precision": 0.9
-        }
+        {"query": "laptop gaming",        "precision": 0.8},
+        {"query": "laptop mahasiswa",     "precision": 0.7},
+        {"query": "laptop editing",       "precision": 0.9},
+        {"query": "laptop murah",         "precision": 0.6},
+        {"query": "laptop RTX",           "precision": 0.9},
+        {"query": "laptop office",        "precision": 0.8},
+        {"query": "laptop desain grafis", "precision": 0.8},
+        {"query": "laptop tipis",         "precision": 0.7},
+        {"query": "laptop coding",        "precision": 0.8},
+        {"query": "laptop SSD",           "precision": 0.9},
 
     ]
 
@@ -113,14 +77,8 @@ def index():
     # =========================
 
     average_precision = round(
-
-        sum(
-            item["precision"]
-            for item in evaluation_data
-        ) / len(evaluation_data),
-
+        sum(item["precision"] for item in evaluation_data) / len(evaluation_data),
         2
-
     )
 
     # =========================
@@ -128,19 +86,12 @@ def index():
     # =========================
 
     return render_template(
-
         "index.html",
-
         results=results,
-
         query=query,
-
         all_products=all_products,
-
         evaluation_data=evaluation_data,
-
         average_precision=average_precision
-
     )
 
 # =========================
@@ -152,15 +103,58 @@ def detail(id):
 
     laptop = df[df["id"] == id].iloc[0]
 
+    nama      = laptop["nama_laptop"]
+    deskripsi = laptop["deskripsi"]
+
+    # =========================
+    # RANK & SCORE
+    # =========================
+
+    rank  = request.args.get("rank", type=int)
+    score = request.args.get("score", type=float)
+
+    # =========================
+    # PARSE SPECS
+    # =========================
+
+    specs = parse_laptop_specs(nama, deskripsi)
+
+    # =========================
+    # PRODUCT DATA
+    # =========================
+
     product = {
 
         "id": laptop["id"],
 
-        "nama": laptop["nama_laptop"],
+        "nama": nama,
 
         "harga": f"Rp {laptop['harga']:,}".replace(",", "."),
 
-        "deskripsi": laptop["deskripsi"]
+        "deskripsi": deskripsi,
+
+        "image": laptop["image"],
+
+        # =========================
+        # SPECS
+        # =========================
+
+        "processor": specs["processor"],
+        "gpu": specs["gpu"],
+        "ram": specs["ram"],
+        "display": specs["display"],
+        "storage": specs["storage"],
+        "tags": specs["tags"],
+        "tagline": specs["tagline"],
+        "deskripsi_panjang": specs["deskripsi_panjang"],
+        "keunggulan": specs["keunggulan"],
+
+        # =========================
+        # SIMILARITY
+        # =========================
+
+        "rank": rank,
+        "score": score,
 
     }
 

@@ -111,6 +111,29 @@ body{
     transform:scale(1.03);
 }
 
+.result-header h2{
+    font-size:72px;
+    font-weight:800;
+    line-height:1.1;
+    margin-bottom:20px;
+    color:white;
+    letter-spacing:-2px;
+}
+
+/* QUERY TEXT */
+
+.result-header p{
+    font-size:22px;
+    color:#cbd5e1;
+    font-weight:500;
+}
+
+.result-header span{
+    color:#a78bfa;
+    font-weight:700;
+    font-size:26px;
+}
+
 /* HERO IMAGE */
 
 .hero-image{
@@ -485,6 +508,22 @@ footer{
 
     .detail-price{
         font-size:24px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .result-header h2{
+        font-size:48px;
+    }
+
+    .result-header p{
+        font-size:18px;
+    }
+
+    .result-header span{
+        font-size:20px;
     }
 
 }

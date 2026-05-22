@@ -1,201 +1,201 @@
-id,nama_laptop,harga,deskripsi
-1,ASUS ROG Strix G16,28999000,"Laptop gaming Intel i7 RAM 16GB RTX 4060 SSD 1TB cocok gaming dan rendering"
-2,ASUS TUF Gaming F15,17999000,"Laptop gaming Intel i5 RAM 16GB RTX 4050 cocok editing video dan gaming"
-3,ASUS VivoBook 14,8999000,"Laptop tipis ringan Ryzen 5 RAM 8GB SSD 512GB cocok mahasiswa dan office"
-4,Acer Nitro V15,15999000,"Laptop gaming Ryzen 7 RAM 16GB RTX 4050 cocok desain grafis"
-5,Acer Aspire 5,7999000,"Laptop murah Intel i5 RAM 8GB SSD 512GB cocok kuliah"
-6,Lenovo LOQ 15,19999000,"Laptop gaming Intel i7 RTX 4060 RAM 16GB performa tinggi"
-7,Lenovo IdeaPad Slim 3,8499000,"Laptop ringan Ryzen 5 RAM 8GB cocok office dan mahasiswa"
-8,MSI Katana 15,24999000,"Laptop gaming Intel i7 RTX 4070 SSD 1TB cocok rendering"
-9,Dell Inspiron 14,9999000,"Laptop office Intel i5 RAM 8GB SSD 512GB baterai awet"
-10,HP Victus 16,16999000,"Laptop gaming Ryzen 7 RTX 3050 cocok multitasking"
-11,Apple MacBook Air M2,18999000,"Laptop premium chip M2 RAM 16GB cocok content creation"
-12,Axioo Hype 5,5999000,"Laptop murah Intel i3 RAM 8GB cocok pelajar"
-13,ASUS Zenbook 14,21999000,"Laptop premium OLED Intel Ultra 7 cocok desain grafis"
-14,Acer Predator Helios,32999000,"Laptop gaming RTX 4070 RAM 32GB cocok editing 3D"
-15,Lenovo Legion 5,26999000,"Laptop gaming Ryzen 7 RTX 4060 cocok streaming"
-16,MSI Thin GF63,14999000,"Laptop gaming tipis Intel i5 RTX 3050 cocok gaming ringan"
-17,Dell XPS 13,25999000,"Laptop premium ringan Intel i7 cocok programmer"
-18,HP Pavilion Aero,13999000,"Laptop tipis Ryzen 5 RAM 16GB cocok office"
-19,Apple MacBook Pro M3,34999000,"Laptop editing video profesional RAM 18GB"
-20,ASUS ExpertBook,11999000,"Laptop bisnis Intel i5 baterai tahan lama"
-21,Acer Swift Go,12999000,"Laptop tipis OLED Intel i5 cocok mahasiswa"
-22,Lenovo Yoga Slim 7,18999000,"Laptop touchscreen Ryzen 7 cocok desain"
-23,MSI Cyborg 15,20999000,"Laptop gaming RTX 4060 performa tinggi"
-24,Dell Latitude 5440,18999000,"Laptop bisnis Intel i7 RAM 16GB"
-25,HP Omen 16,31999000,"Laptop gaming RTX 4070 cocok rendering"
-26,ASUS BR1100,4999000,"Laptop pelajar Intel Celeron ringan"
-27,Acer Aspire Lite,6499000,"Laptop murah Ryzen 3 cocok office"
-28,Lenovo ThinkPad E14,14999000,"Laptop kerja Intel i5 keyboard nyaman"
-29,MSI Prestige 14,22999000,"Laptop creator Intel i7 desain premium"
-30,Dell G15,18999000,"Laptop gaming RTX 3050 cocok editing"
-31,HP Envy x360,19999000,"Laptop touchscreen Ryzen 7 cocok desain grafis"
-32,ASUS ROG Zephyrus,39999000,"Laptop gaming tipis RTX 4080"
-33,Acer Chromebook Plus,6999000,"Laptop ringan ChromeOS cocok browsing"
-34,Lenovo IdeaPad Gaming 3,15999000,"Laptop gaming Ryzen 5 RTX 3050"
-35,MSI Raider GE78,49999000,"Laptop gaming high end RTX 4090"
-36,Dell Vostro 14,7499000,"Laptop bisnis murah Intel i3"
-37,HP 14s,7999000,"Laptop office Intel i5 ringan"
-38,ASUS ProArt Studiobook,35999000,"Laptop creator RTX 4070 cocok editing"
-39,Acer Nitro 5,16999000,"Laptop gaming Intel i5 RTX 3050"
-40,Lenovo Slim Pro 7,17999000,"Laptop premium Ryzen 7 OLED"
-41,MSI Bravo 15,15999000,"Laptop gaming AMD Radeon cocok gaming"
-42,Dell Precision 5680,42999000,"Laptop workstation editing 3D"
-43,HP Dragonfly,25999000,"Laptop bisnis premium ringan"
-44,ASUS Chromebook CX1,5499000,"Laptop browsing murah"
-45,Acer Aspire Vero,10999000,"Laptop eco friendly Intel i5"
-46,Lenovo ThinkBook 14,12999000,"Laptop bisnis modern SSD 1TB"
-47,MSI Vector GP68,38999000,"Laptop gaming RTX 4080"
-48,Dell Alienware M16,45999000,"Laptop gaming premium performa tinggi"
-49,HP EliteBook 840,21999000,"Laptop kerja Intel i7 RAM 16GB"
-50,ASUS VivoBook Go,6999000,"Laptop pelajar Ryzen 3 SSD 256GB"
-51,ASUS TUF Dash F15,22999000,"Laptop gaming ringan RTX 4060"
-52,Acer Swift X,16999000,"Laptop creator RTX 3050 ringan"
-53,Lenovo Legion Slim 5,27999000,"Laptop gaming tipis Ryzen 7"
-54,MSI Modern 14,9999000,"Laptop office tipis Intel i5"
-55,Dell Inspiron 16,14999000,"Laptop multimedia Intel i7"
-56,HP Victus 15,13999000,"Laptop gaming murah RTX 2050"
-57,ASUS Zenbook Duo,32999000,"Laptop dual screen creator"
-58,Acer TravelMate P2,10999000,"Laptop bisnis baterai awet"
-59,Lenovo Chromebook Duet,6499000,"Laptop tablet ringan"
-60,MSI Stealth 16,41999000,"Laptop gaming premium tipis"
-61,Dell XPS 15,36999000,"Laptop editing profesional OLED"
-62,HP Spectre x360,28999000,"Laptop premium touchscreen"
-63,ASUS ROG Flow X13,29999000,"Laptop gaming convertible"
-64,Acer Aspire 7,14999000,"Laptop gaming entry RTX 3050"
-65,Lenovo V14 G4,7499000,"Laptop office murah"
-66,MSI Alpha 17,25999000,"Laptop gaming AMD Ryzen 9"
-67,Dell Latitude 7440,26999000,"Laptop bisnis premium ringan"
-68,HP ProBook 440,11999000,"Laptop kantor Intel i5"
-69,ASUS VivoBook Pro 15,18999000,"Laptop creator RTX 4050"
-70,Acer Predator Triton,44999000,"Laptop gaming tipis RTX 4080"
-71,Lenovo ThinkPad X1,33999000,"Laptop bisnis flagship"
-72,MSI Sword 16,23999000,"Laptop gaming Intel i7 RTX 4060"
-73,Dell G16,24999000,"Laptop gaming QHD performa tinggi"
-74,HP 240 G9,6999000,"Laptop office murah SSD"
-75,ASUS BR1402,5999000,"Laptop pendidikan tahan banting"
-76,Acer Extensa 15,6499000,"Laptop kerja murah Intel i3"
-77,Lenovo Flex 5,12999000,"Laptop touchscreen Ryzen 5"
-78,MSI Creator Z16,37999000,"Laptop desain grafis profesional"
-79,Dell Inspiron 3520,8999000,"Laptop mahasiswa Intel i5"
-80,HP Pavilion Gaming,12999000,"Laptop gaming GTX 1650"
-81,ASUS ROG Scar 18,59999000,"Laptop gaming RTX 4090"
-82,Acer Nitro 16,27999000,"Laptop gaming Ryzen 7 RTX 4060"
-83,Lenovo Yoga 9i,28999000,"Laptop premium convertible OLED"
-84,MSI Pulse 17,29999000,"Laptop gaming performa tinggi"
-85,Dell Alienware X14,39999000,"Laptop gaming premium tipis"
-86,HP Envy 14,19999000,"Laptop creator ringan"
-87,ASUS ExpertBook B1,10999000,"Laptop bisnis Intel i5"
-88,Acer Swift Edge,21999000,"Laptop OLED super ringan"
-89,Lenovo IdeaPad 1,5999000,"Laptop entry level murah"
-90,MSI Summit E16,26999000,"Laptop bisnis touchscreen"
-91,Dell Precision 3581,34999000,"Laptop workstation profesional"
-92,HP Chromebook 14,5499000,"Laptop browsing ringan"
-93,ASUS Zenbook S13,24999000,"Laptop tipis premium OLED"
-94,Acer Aspire Spin 14,13999000,"Laptop touchscreen convertible"
-95,Lenovo Legion Pro 7,45999000,"Laptop gaming RTX 4080"
-96,MSI GF76 Katana,21999000,"Laptop gaming layar besar"
-97,Dell Latitude 3340,8999000,"Laptop sekolah ringan"
-98,HP Omen Transcend,42999000,"Laptop gaming creator"
-99,ASUS TUF A15,20999000,"Laptop gaming Ryzen 7 RTX 4060"
-100,Acer Predator Neo,28999000,"Laptop gaming modern Intel i7"
-101,Lenovo ThinkPad L14,14999000,"Laptop bisnis tangguh Intel i5 RAM 16GB SSD 512GB cocok kerja kantoran"
-102,MSI Titan GT77,65999000,"Laptop gaming RTX 4090 Intel i9 RAM 32GB performa ultra"
-103,Dell Inspiron Plus,17999000,"Laptop multimedia premium Intel i7 cocok editing ringan"
-104,HP Stream 14,5499000,"Laptop murah pelajar Intel Celeron RAM 4GB"
-105,ASUS Chromebook Flip,7499000,"Laptop touchscreen ChromeOS ringan untuk browsing"
-106,Acer Swift Lite,9999000,"Laptop ringan office Ryzen 5 baterai tahan lama"
-107,Lenovo LOQ 16,24999000,"Laptop gaming QHD RTX 4060 cocok rendering"
-108,MSI Claw A1M,13999000,"Gaming handheld Windows Intel Core Ultra"
-109,Dell Vostro 3520,8999000,"Laptop kantor Intel i5 SSD cocok bisnis"
-110,HP 15s Ryzen Edition,8499000,"Laptop office Ryzen 5 RAM 8GB SSD 512GB"
-111,ASUS Pro P1440,10999000,"Laptop bisnis ringan Intel i5 cocok produktivitas"
-112,Acer Aspire Go,6499000,"Laptop entry level SSD untuk mahasiswa"
-113,Lenovo IdeaPad Flex 3,7999000,"Laptop touchscreen murah cocok pelajar"
-114,MSI Prestige Evo,23999000,"Laptop premium Intel Evo ringan dan cepat"
-115,Dell XPS 17,45999000,"Laptop creator layar besar RTX 4070 OLED"
-116,HP Elite Dragonfly,35999000,"Laptop bisnis premium super ringan"
-117,ASUS VivoBook OLED,14999000,"Laptop OLED Ryzen 7 cocok multimedia"
-118,Acer Nitro RTX Edition,29999000,"Laptop gaming RTX 4070 Intel i7"
-119,Lenovo Slim 5 OLED,16999000,"Laptop multimedia premium Ryzen 7"
-120,MSI Vector 16 HX,38999000,"Laptop gaming Intel i9 RTX 4080"
-121,ASUS Zenbook Flip,22999000,"Laptop convertible OLED cocok desain"
-122,Acer Aspire Creator,17999000,"Laptop editing RTX 3060 ringan"
-123,Lenovo Legion 7i,47999000,"Laptop gaming premium Intel i9 RTX 4080"
-124,MSI Crosshair 15,26999000,"Laptop gaming RGB Intel i7 RTX 4060"
-125,Dell Gaming Ryzen,15999000,"Laptop gaming murah AMD Ryzen RTX 3050"
-126,HP Pavilion Plus,16999000,"Laptop creator OLED Intel i7 ringan"
-127,ASUS ExpertCenter,11999000,"Laptop bisnis produktivitas SSD 512GB"
-128,Acer Swift Creator,18999000,"Laptop editing ringan RTX 3050"
-129,Lenovo V15 Ryzen,7499000,"Laptop office murah Ryzen 3"
-130,MSI Gaming Thin,17999000,"Laptop gaming portable RTX 3050"
-131,Dell Inspiron Ryzen,9999000,"Laptop office AMD Ryzen cocok multitasking"
-132,HP Victus Ryzen Edition,19999000,"Laptop gaming Ryzen RTX 4060"
-133,ASUS ROG Duo,55999000,"Laptop gaming dual screen RTX 4080"
-134,Acer Aspire Student,5999000,"Laptop mahasiswa murah Intel i3"
-135,Lenovo ThinkPad Yoga,23999000,"Laptop bisnis touchscreen premium"
-136,MSI Stealth Studio,43999000,"Laptop creator gaming tipis RTX 4080"
-137,Dell Precision RTX,49999000,"Laptop workstation RTX untuk desain 3D"
-138,HP EliteBook Aero,22999000,"Laptop bisnis ringan baterai awet"
-139,ASUS TUF Creator,24999000,"Laptop gaming editing RTX 4060"
-140,Acer Predator RTX 4080,52999000,"Laptop gaming ultra Intel i9"
-141,Lenovo Creator Series,29999000,"Laptop desain profesional OLED"
-142,MSI Gaming Beast,35999000,"Laptop gaming performa tinggi RTX 4070"
-143,Dell Latitude Business,18999000,"Laptop kerja perusahaan Intel i7"
-144,HP Office Essential,7499000,"Laptop office SSD murah"
-145,ASUS Student Edition,6499000,"Laptop pelajar ringan RAM 8GB"
-146,Acer TravelBook,9999000,"Laptop bisnis baterai awet Ryzen 5"
-147,Lenovo Multimedia Pro,21999000,"Laptop editing multimedia RTX 3050"
-148,MSI Titan Creator,62999000,"Laptop gaming creator premium RTX 4090"
-149,Dell Creator OLED,32999000,"Laptop creator layar OLED Intel i7"
-150,HP Gaming Max,25999000,"Laptop gaming RTX 4060 RAM 16GB"
-151,ASUS ROG G14,32999000,"Laptop gaming compact Ryzen 9 RTX 4070"
-152,Acer Nitro Student,12999000,"Laptop gaming entry cocok mahasiswa"
-153,Lenovo ThinkBook Yoga,17999000,"Laptop touchscreen bisnis premium"
-154,MSI Creator Pro X,45999000,"Laptop desain grafis RTX 4080"
-155,Dell Inspiron Student,7999000,"Laptop kuliah Intel i3 SSD"
-156,HP Pavilion Ryzen,10999000,"Laptop office Ryzen 5 ringan"
-157,ASUS VivoBook Student,7499000,"Laptop mahasiswa murah SSD"
-158,Acer Aspire Multimedia,14999000,"Laptop multimedia Intel i7"
-159,Lenovo Gaming RTX,28999000,"Laptop gaming RTX 4070 Ryzen 7"
-160,MSI Office Pro,12999000,"Laptop kerja Intel i5 RAM 16GB"
-161,Dell XPS OLED,39999000,"Laptop premium OLED creator"
-162,HP Envy OLED,24999000,"Laptop creator premium Intel i7"
-163,ASUS Creator OLED,27999000,"Laptop editing video RTX 4060"
-164,Acer Nitro Creator,23999000,"Laptop gaming editing RTX 4050"
-165,Lenovo Slim Student,8999000,"Laptop tipis mahasiswa Ryzen 5"
-166,MSI Raider Creator,55999000,"Laptop creator gaming RTX 4090"
-167,Dell Gaming RTX,21999000,"Laptop gaming Intel i7 RTX 4060"
-168,HP Elite OLED,31999000,"Laptop bisnis premium OLED"
-169,ASUS OfficeBook,8499000,"Laptop office ringan Intel i5"
-170,Acer Swift RTX,25999000,"Laptop ringan RTX 4060 creator"
-171,Lenovo Legion Creator,38999000,"Laptop gaming editing premium"
-172,MSI Thin Student,9999000,"Laptop mahasiswa ringan Intel i5"
-173,Dell Precision Ultra,59999000,"Laptop workstation RTX 4090"
-174,HP StudentBook,6499000,"Laptop pelajar murah RAM 8GB"
-175,ASUS TUF Ryzen,21999000,"Laptop gaming Ryzen 7 RTX 4060"
-176,Acer Aspire Ryzen,9999000,"Laptop office Ryzen 5 SSD"
-177,Lenovo Yoga OLED,26999000,"Laptop touchscreen OLED premium"
-178,MSI Titan RTX,69999000,"Laptop gaming tertinggi RTX 4090"
-179,Dell Inspiron Office,8499000,"Laptop office SSD Intel i5"
-180,HP Gaming RTX 4070,32999000,"Laptop gaming performa tinggi"
-181,ASUS Zenbook Creator,29999000,"Laptop creator OLED Intel Ultra"
-182,Acer Nitro OLED,27999000,"Laptop gaming OLED RTX 4060"
-183,Lenovo Slim Gaming,19999000,"Laptop gaming tipis RTX 3050"
-184,MSI Office Slim,11999000,"Laptop bisnis tipis Intel i5"
-185,Dell Student Ryzen,7499000,"Laptop mahasiswa Ryzen 3"
-186,HP Creator RTX,28999000,"Laptop creator RTX 4070"
-187,ASUS VivoBook Gaming,17999000,"Laptop gaming entry RTX 3050"
-188,Acer Predator Creator,45999000,"Laptop creator gaming premium"
-189,Lenovo Business Pro,14999000,"Laptop bisnis Ryzen 7 ringan"
-190,MSI Gaming Studio,37999000,"Laptop gaming editing RTX 4080"
-191,Dell Multimedia OLED,25999000,"Laptop multimedia OLED Intel i7"
-192,HP Pavilion Office,9499000,"Laptop office Ryzen 5"
-193,ASUS Chromebook Student,5499000,"Laptop ChromeOS untuk pelajar"
-194,Acer Swift Business,15999000,"Laptop bisnis ringan Intel i7"
-195,Lenovo Legion RTX 4090,69999000,"Laptop gaming flagship RTX 4090"
-196,MSI Creator OLED,34999000,"Laptop creator OLED premium"
-197,Dell Gaming Beast,42999000,"Laptop gaming high end RTX 4080"
-198,HP Office Ryzen,8999000,"Laptop kerja Ryzen 5 SSD"
-199,ASUS ROG Ultimate,79999000,"Laptop gaming ultimate RTX 4090"
-200,Acer Aspire Office,7499000,"Laptop office murah Intel i3 SSD"
+id,nama_laptop,harga,deskripsi,image
+1,ASUS ROG Strix G16,28999000,Laptop gaming Intel i7 RAM 16GB RTX 4060 SSD 1TB cocok gaming dan rendering,https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=1200&auto=format&fit=crop
+2,ASUS TUF Gaming F15,17999000,Laptop gaming Intel i5 RAM 16GB RTX 4050 cocok editing video dan gaming,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+3,ASUS VivoBook 14,8999000,Laptop tipis ringan Ryzen 5 RAM 8GB SSD 512GB cocok mahasiswa dan office,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+4,Acer Nitro V15,15999000,Laptop gaming Ryzen 7 RAM 16GB RTX 4050 cocok desain grafis,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+5,Acer Aspire 5,7999000,Laptop murah Intel i5 RAM 8GB SSD 512GB cocok kuliah,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+6,Lenovo LOQ 15,19999000,Laptop gaming Intel i7 RTX 4060 RAM 16GB performa tinggi,https://images.unsplash.com/photo-1588702547923-7093a6c3a3e4?q=80&w=1200&auto=format&fit=crop
+7,Lenovo IdeaPad Slim 3,8499000,Laptop ringan Ryzen 5 RAM 8GB cocok office dan mahasiswa,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+8,MSI Katana 15,24999000,Laptop gaming Intel i7 RTX 4070 SSD 1TB cocok rendering,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+9,Dell Inspiron 14,9999000,Laptop office Intel i5 RAM 8GB SSD 512GB baterai awet,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+10,HP Victus 16,16999000,Laptop gaming Ryzen 7 RTX 3050 cocok multitasking,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+11,Apple MacBook Air M2,18999000,Laptop premium chip M2 RAM 16GB cocok content creation,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+12,Axioo Hype 5,5999000,Laptop murah Intel i3 RAM 8GB cocok pelajar,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+13,ASUS Zenbook 14,21999000,Laptop premium OLED Intel Ultra 7 cocok desain grafis,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+14,Acer Predator Helios,32999000,Laptop gaming RTX 4070 RAM 32GB cocok editing 3D,https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop
+15,Lenovo Legion 5,26999000,Laptop gaming Ryzen 7 RTX 4060 cocok streaming,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+16,MSI Thin GF63,14999000,Laptop gaming tipis Intel i5 RTX 3050 cocok gaming ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+17,Dell XPS 13,25999000,Laptop premium ringan Intel i7 cocok programmer,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+18,HP Pavilion Aero,13999000,Laptop tipis Ryzen 5 RAM 16GB cocok office,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+19,Apple MacBook Pro M3,34999000,Laptop editing video profesional RAM 18GB,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+20,ASUS ExpertBook,11999000,Laptop bisnis Intel i5 baterai tahan lama,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+21,Acer Swift Go,12999000,Laptop tipis OLED Intel i5 cocok mahasiswa,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+22,Lenovo Yoga Slim 7,18999000,Laptop touchscreen Ryzen 7 cocok desain,https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop
+23,MSI Cyborg 15,20999000,Laptop gaming RTX 4060 performa tinggi,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+24,Dell Latitude 5440,18999000,Laptop bisnis Intel i7 RAM 16GB,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+25,HP Omen 16,31999000,Laptop gaming RTX 4070 cocok rendering,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+26,ASUS BR1100,4999000,Laptop pelajar Intel Celeron ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+27,Acer Aspire Lite,6499000,Laptop murah Ryzen 3 cocok office,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+28,Lenovo ThinkPad E14,14999000,Laptop kerja Intel i5 keyboard nyaman,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+29,MSI Prestige 14,22999000,Laptop creator Intel i7 desain premium,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+30,Dell G15,18999000,Laptop gaming RTX 3050 cocok editing,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+31,HP Envy x360,19999000,Laptop touchscreen Ryzen 7 cocok desain grafis,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+32,ASUS ROG Zephyrus,39999000,Laptop gaming tipis RTX 4080,https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1200&auto=format&fit=crop
+33,Acer Chromebook Plus,6999000,Laptop ringan ChromeOS cocok browsing,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+34,Lenovo IdeaPad Gaming 3,15999000,Laptop gaming Ryzen 5 RTX 3050,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+35,MSI Raider GE78,49999000,Laptop gaming high end RTX 4090,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+36,Dell Vostro 14,7499000,Laptop bisnis murah Intel i3,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+37,HP 14s,7999000,Laptop office Intel i5 ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+38,ASUS ProArt Studiobook,35999000,Laptop creator RTX 4070 cocok editing,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+39,Acer Nitro 5,16999000,Laptop gaming Intel i5 RTX 3050,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+40,Lenovo Slim Pro 7,17999000,Laptop premium Ryzen 7 OLED,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+41,MSI Bravo 15,15999000,Laptop gaming AMD Radeon cocok gaming,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+42,Dell Precision 5680,42999000,Laptop workstation editing 3D,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+43,HP Dragonfly,25999000,Laptop bisnis premium ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+44,ASUS Chromebook CX1,5499000,Laptop browsing murah,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+45,Acer Aspire Vero,10999000,Laptop eco friendly Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+46,Lenovo ThinkBook 14,12999000,Laptop bisnis modern SSD 1TB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+47,MSI Vector GP68,38999000,Laptop gaming RTX 4080,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+48,Dell Alienware M16,45999000,Laptop gaming premium performa tinggi,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+49,HP EliteBook 840,21999000,Laptop kerja Intel i7 RAM 16GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+50,ASUS VivoBook Go,6999000,Laptop pelajar Ryzen 3 SSD 256GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+51,ASUS TUF Dash F15,22999000,Laptop gaming ringan RTX 4060,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+52,Acer Swift X,16999000,Laptop creator RTX 3050 ringan,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+53,Lenovo Legion Slim 5,27999000,Laptop gaming tipis Ryzen 7,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+54,MSI Modern 14,9999000,Laptop office tipis Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+55,Dell Inspiron 16,14999000,Laptop multimedia Intel i7,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+56,HP Victus 15,13999000,Laptop gaming murah RTX 2050,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+57,ASUS Zenbook Duo,32999000,Laptop dual screen creator,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+58,Acer TravelMate P2,10999000,Laptop bisnis baterai awet,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+59,Lenovo Chromebook Duet,6499000,Laptop tablet ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+60,MSI Stealth 16,41999000,Laptop gaming premium tipis,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+61,Dell XPS 15,36999000,Laptop editing profesional OLED,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+62,HP Spectre x360,28999000,Laptop premium touchscreen,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+63,ASUS ROG Flow X13,29999000,Laptop gaming convertible,https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1200&auto=format&fit=crop
+64,Acer Aspire 7,14999000,Laptop gaming entry RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+65,Lenovo V14 G4,7499000,Laptop office murah,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+66,MSI Alpha 17,25999000,Laptop gaming AMD Ryzen 9,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+67,Dell Latitude 7440,26999000,Laptop bisnis premium ringan,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+68,HP ProBook 440,11999000,Laptop kantor Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+69,ASUS VivoBook Pro 15,18999000,Laptop creator RTX 4050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+70,Acer Predator Triton,44999000,Laptop gaming tipis RTX 4080,https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop
+71,Lenovo ThinkPad X1,33999000,Laptop bisnis flagship,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+72,MSI Sword 16,23999000,Laptop gaming Intel i7 RTX 4060,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+73,Dell G16,24999000,Laptop gaming QHD performa tinggi,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+74,HP 240 G9,6999000,Laptop office murah SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+75,ASUS BR1402,5999000,Laptop pendidikan tahan banting,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+76,Acer Extensa 15,6499000,Laptop kerja murah Intel i3,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+77,Lenovo Flex 5,12999000,Laptop touchscreen Ryzen 5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+78,MSI Creator Z16,37999000,Laptop desain grafis profesional,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+79,Dell Inspiron 3520,8999000,Laptop mahasiswa Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+80,HP Pavilion Gaming,12999000,Laptop gaming GTX 1650,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+81,ASUS ROG Scar 18,59999000,Laptop gaming RTX 4090,https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=1200&auto=format&fit=crop
+82,Acer Nitro 16,27999000,Laptop gaming Ryzen 7 RTX 4060,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+83,Lenovo Yoga 9i,28999000,Laptop premium convertible OLED,https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop
+84,MSI Pulse 17,29999000,Laptop gaming performa tinggi,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+85,Dell Alienware X14,39999000,Laptop gaming premium tipis,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+86,HP Envy 14,19999000,Laptop creator ringan,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+87,ASUS ExpertBook B1,10999000,Laptop bisnis Intel i5,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+88,Acer Swift Edge,21999000,Laptop OLED super ringan,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+89,Lenovo IdeaPad 1,5999000,Laptop entry level murah,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+90,MSI Summit E16,26999000,Laptop bisnis touchscreen,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+91,Dell Precision 3581,34999000,Laptop workstation profesional,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+92,HP Chromebook 14,5499000,Laptop browsing ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+93,ASUS Zenbook S13,24999000,Laptop tipis premium OLED,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+94,Acer Aspire Spin 14,13999000,Laptop touchscreen convertible,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+95,Lenovo Legion Pro 7,45999000,Laptop gaming RTX 4080,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+96,MSI GF76 Katana,21999000,Laptop gaming layar besar,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+97,Dell Latitude 3340,8999000,Laptop sekolah ringan,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+98,HP Omen Transcend,42999000,Laptop gaming creator,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+99,ASUS TUF A15,20999000,Laptop gaming Ryzen 7 RTX 4060,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+100,Acer Predator Neo,28999000,Laptop gaming modern Intel i7,https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop
+101,Lenovo ThinkPad L14,14999000,Laptop bisnis tangguh Intel i5 RAM 16GB SSD 512GB cocok kerja kantoran,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+102,MSI Titan GT77,65999000,Laptop gaming RTX 4090 Intel i9 RAM 32GB performa ultra,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+103,Dell Inspiron Plus,17999000,Laptop multimedia premium Intel i7 cocok editing ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+104,HP Stream 14,5499000,Laptop murah pelajar Intel Celeron RAM 4GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+105,ASUS Chromebook Flip,7499000,Laptop touchscreen ChromeOS ringan untuk browsing,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+106,Acer Swift Lite,9999000,Laptop ringan office Ryzen 5 baterai tahan lama,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+107,Lenovo LOQ 16,24999000,Laptop gaming QHD RTX 4060 cocok rendering,https://images.unsplash.com/photo-1588702547923-7093a6c3a3e4?q=80&w=1200&auto=format&fit=crop
+108,MSI Claw A1M,13999000,Gaming handheld Windows Intel Core Ultra,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+109,Dell Vostro 3520,8999000,Laptop kantor Intel i5 SSD cocok bisnis,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+110,HP 15s Ryzen Edition,8499000,Laptop office Ryzen 5 RAM 8GB SSD 512GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+111,ASUS Pro P1440,10999000,Laptop bisnis ringan Intel i5 cocok produktivitas,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+112,Acer Aspire Go,6499000,Laptop entry level SSD untuk mahasiswa,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+113,Lenovo IdeaPad Flex 3,7999000,Laptop touchscreen murah cocok pelajar,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+114,MSI Prestige Evo,23999000,Laptop premium Intel Evo ringan dan cepat,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+115,Dell XPS 17,45999000,Laptop creator layar besar RTX 4070 OLED,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+116,HP Elite Dragonfly,35999000,Laptop bisnis premium super ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+117,ASUS VivoBook OLED,14999000,Laptop OLED Ryzen 7 cocok multimedia,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+118,Acer Nitro RTX Edition,29999000,Laptop gaming RTX 4070 Intel i7,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+119,Lenovo Slim 5 OLED,16999000,Laptop multimedia premium Ryzen 7,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+120,MSI Vector 16 HX,38999000,Laptop gaming Intel i9 RTX 4080,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+121,ASUS Zenbook Flip,22999000,Laptop convertible OLED cocok desain,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+122,Acer Aspire Creator,17999000,Laptop editing RTX 3060 ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+123,Lenovo Legion 7i,47999000,Laptop gaming premium Intel i9 RTX 4080,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+124,MSI Crosshair 15,26999000,Laptop gaming RGB Intel i7 RTX 4060,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+125,Dell Gaming Ryzen,15999000,Laptop gaming murah AMD Ryzen RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+126,HP Pavilion Plus,16999000,Laptop creator OLED Intel i7 ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+127,ASUS ExpertCenter,11999000,Laptop bisnis produktivitas SSD 512GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+128,Acer Swift Creator,18999000,Laptop editing ringan RTX 3050,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+129,Lenovo V15 Ryzen,7499000,Laptop office murah Ryzen 3,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+130,MSI Gaming Thin,17999000,Laptop gaming portable RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+131,Dell Inspiron Ryzen,9999000,Laptop office AMD Ryzen cocok multitasking,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+132,HP Victus Ryzen Edition,19999000,Laptop gaming Ryzen RTX 4060,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+133,ASUS ROG Duo,55999000,Laptop gaming dual screen RTX 4080,https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1200&auto=format&fit=crop
+134,Acer Aspire Student,5999000,Laptop mahasiswa murah Intel i3,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+135,Lenovo ThinkPad Yoga,23999000,Laptop bisnis touchscreen premium,https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop
+136,MSI Stealth Studio,43999000,Laptop creator gaming tipis RTX 4080,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+137,Dell Precision RTX,49999000,Laptop workstation RTX untuk desain 3D,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+138,HP EliteBook Aero,22999000,Laptop bisnis ringan baterai awet,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+139,ASUS TUF Creator,24999000,Laptop gaming editing RTX 4060,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+140,Acer Predator RTX 4080,52999000,Laptop gaming ultra Intel i9,https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop
+141,Lenovo Creator Series,29999000,Laptop desain profesional OLED,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+142,MSI Gaming Beast,35999000,Laptop gaming performa tinggi RTX 4070,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+143,Dell Latitude Business,18999000,Laptop kerja perusahaan Intel i7,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+144,HP Office Essential,7499000,Laptop office SSD murah,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+145,ASUS Student Edition,6499000,Laptop pelajar ringan RAM 8GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+146,Acer TravelBook,9999000,Laptop bisnis baterai awet Ryzen 5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+147,Lenovo Multimedia Pro,21999000,Laptop editing multimedia RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+148,MSI Titan Creator,62999000,Laptop gaming creator premium RTX 4090,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+149,Dell Creator OLED,32999000,Laptop creator layar OLED Intel i7,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+150,HP Gaming Max,25999000,Laptop gaming RTX 4060 RAM 16GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+151,ASUS ROG G14,32999000,Laptop gaming compact Ryzen 9 RTX 4070,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+152,Acer Nitro Student,12999000,Laptop gaming entry cocok mahasiswa,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+153,Lenovo ThinkBook Yoga,17999000,Laptop touchscreen bisnis premium,https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop
+154,MSI Creator Pro X,45999000,Laptop desain grafis RTX 4080,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+155,Dell Inspiron Student,7999000,Laptop kuliah Intel i3 SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+156,HP Pavilion Ryzen,10999000,Laptop office Ryzen 5 ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+157,ASUS VivoBook Student,7499000,Laptop mahasiswa murah SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+158,Acer Aspire Multimedia,14999000,Laptop multimedia Intel i7,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+159,Lenovo Gaming RTX,28999000,Laptop gaming RTX 4070 Ryzen 7,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+160,MSI Office Pro,12999000,Laptop kerja Intel i5 RAM 16GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+161,Dell XPS OLED,39999000,Laptop premium OLED creator,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+162,HP Envy OLED,24999000,Laptop creator premium Intel i7,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+163,ASUS Creator OLED,27999000,Laptop editing video RTX 4060,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+164,Acer Nitro Creator,23999000,Laptop gaming editing RTX 4050,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+165,Lenovo Slim Student,8999000,Laptop tipis mahasiswa Ryzen 5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+166,MSI Raider Creator,55999000,Laptop creator gaming RTX 4090,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+167,Dell Gaming RTX,21999000,Laptop gaming Intel i7 RTX 4060,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+168,HP Elite OLED,31999000,Laptop bisnis premium OLED,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+169,ASUS OfficeBook,8499000,Laptop office ringan Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+170,Acer Swift RTX,25999000,Laptop ringan RTX 4060 creator,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+171,Lenovo Legion Creator,38999000,Laptop gaming editing premium,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+172,MSI Thin Student,9999000,Laptop mahasiswa ringan Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+173,Dell Precision Ultra,59999000,Laptop workstation RTX 4090,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+174,HP StudentBook,6499000,Laptop pelajar murah RAM 8GB,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+175,ASUS TUF Ryzen,21999000,Laptop gaming Ryzen 7 RTX 4060,https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?q=80&w=1200&auto=format&fit=crop
+176,Acer Aspire Ryzen,9999000,Laptop office Ryzen 5 SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+177,Lenovo Yoga OLED,26999000,Laptop touchscreen OLED premium,https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop
+178,MSI Titan RTX,69999000,Laptop gaming tertinggi RTX 4090,https://images.unsplash.com/photo-1587202372775-e229f172b9d7?q=80&w=1200&auto=format&fit=crop
+179,Dell Inspiron Office,8499000,Laptop office SSD Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+180,HP Gaming RTX 4070,32999000,Laptop gaming performa tinggi,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+181,ASUS Zenbook Creator,29999000,Laptop creator OLED Intel Ultra,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+182,Acer Nitro OLED,27999000,Laptop gaming OLED RTX 4060,https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1200&auto=format&fit=crop
+183,Lenovo Slim Gaming,19999000,Laptop gaming tipis RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+184,MSI Office Slim,11999000,Laptop bisnis tipis Intel i5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+185,Dell Student Ryzen,7499000,Laptop mahasiswa Ryzen 3,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+186,HP Creator RTX,28999000,Laptop creator RTX 4070,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+187,ASUS VivoBook Gaming,17999000,Laptop gaming entry RTX 3050,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+188,Acer Predator Creator,45999000,Laptop creator gaming premium,https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?q=80&w=1200&auto=format&fit=crop
+189,Lenovo Business Pro,14999000,Laptop bisnis Ryzen 7 ringan,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+190,MSI Gaming Studio,37999000,Laptop gaming editing RTX 4080,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+191,Dell Multimedia OLED,25999000,Laptop multimedia OLED Intel i7,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+192,HP Pavilion Office,9499000,Laptop office Ryzen 5,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+193,ASUS Chromebook Student,5499000,Laptop ChromeOS untuk pelajar,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+194,Acer Swift Business,15999000,Laptop bisnis ringan Intel i7,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+195,Lenovo Legion RTX 4090,69999000,Laptop gaming flagship RTX 4090,https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop
+196,MSI Creator OLED,34999000,Laptop creator OLED premium,https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop
+197,Dell Gaming Beast,42999000,Laptop gaming high end RTX 4080,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+198,HP Office Ryzen,8999000,Laptop kerja Ryzen 5 SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+199,ASUS ROG Ultimate,79999000,Laptop gaming ultimate RTX 4090,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop
+200,Acer Aspire Office,7499000,Laptop office murah Intel i3 SSD,https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop

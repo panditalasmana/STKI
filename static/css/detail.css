@@ -1,0 +1,424 @@
+/* ============================================================
+   detail.css — Halaman Detail Produk LaptopFinder
+   Tambahkan di: static/css/detail.css
+   Lalu link di detail.html:
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/detail.css') }}">
+============================================================ */
+
+/* ── SECTION ── */
+.detail-section {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+/* ── BACK BUTTON ── */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 1.75rem;
+}
+
+/* ============================================================
+   TOP CARD — 3 kolom: Gambar | Info | Specs
+============================================================ */
+.top-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 18px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 380px 1fr 300px;
+    min-height: 420px;
+}
+
+/* ── Kolom Kiri: Gambar + Tags ── */
+.top-card__image-col {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.top-card__image-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    overflow: hidden;
+}
+
+.top-card__image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.top-card__tags {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 1.25rem 1.25rem;
+    flex-wrap: wrap;
+}
+
+.tag-pill {
+    background: rgba(99, 102, 241, 0.25);
+    border: 1px solid rgba(99, 102, 241, 0.4);
+    color: #c4c6ff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+}
+
+/* ── Kolom Tengah: Info Produk ── */
+.top-card__info-col {
+    padding: 2rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Badge Row: Laptop Product + Rank + Similarity */
+.badge-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.badge-type {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(99, 102, 241, 0.35);
+    border: 1px solid rgba(99, 102, 241, 0.5);
+    color: #c4c6ff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.9rem;
+    border-radius: 999px;
+    letter-spacing: 0.03em;
+}
+
+/* Badge Rank — kuning keemasan */
+.badge-rank {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: rgba(251, 191, 36, 0.15);
+    border: 1px solid rgba(251, 191, 36, 0.4);
+    color: #fbbf24;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+}
+
+.badge-rank i {
+    font-size: 0.7rem;
+}
+
+/* Badge Similarity — cyan */
+.badge-similarity {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: rgba(34, 211, 238, 0.12);
+    border: 1px solid rgba(34, 211, 238, 0.35);
+    color: #22d3ee;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    letter-spacing: 0.02em;
+}
+
+.badge-similarity i {
+    font-size: 0.7rem;
+}
+
+/* Judul & Harga */
+.detail-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.detail-price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #22d3ee;
+    margin: 0;
+}
+
+.detail-tagline {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.85rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.detail-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.88rem;
+    line-height: 1.75;
+    margin: 0;
+}
+
+/* ── Kolom Kanan: Specs 2×2 ── */
+.top-card__specs-col {
+    padding: 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.specs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.spec-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 14px;
+    padding: 1rem 1.1rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.spec-icon {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.45);
+    margin-bottom: 0.35rem;
+    display: block;
+}
+
+.spec-label {
+    font-size: 0.63rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.38);
+    font-weight: 600;
+}
+
+.spec-value {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 0.1rem;
+}
+
+/* ============================================================
+   BOTTOM CARD — Keunggulan Utama + Buy
+============================================================ */
+.bottom-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 18px;
+    margin-top: 1rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.highlights-section {
+    flex: 1;
+}
+
+.highlights-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 1rem;
+}
+
+.highlights-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.highlight-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(30, 30, 60, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.highlight-icon.yellow { color: #fbbf24; }
+.highlight-icon.purple { color: #a78bfa; }
+.highlight-icon.blue   { color: #60a5fa; }
+.highlight-icon.green  { color: #34d399; }
+
+.highlight-text h6 {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 0.2rem;
+}
+
+.highlight-text p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.48);
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* ── Buy Area ── */
+.buy-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+}
+
+.cart-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #cdd5e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    flex-shrink: 0;
+}
+
+.cart-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+
+.buy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    border-radius: 14px;
+    height: 56px;
+    padding: 0 2.5rem;
+    text-decoration: none;
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    color: #fff;
+    white-space: nowrap;
+    transition: opacity 0.2s, transform 0.15s;
+}
+
+.buy-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+    color: #fff;
+}
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+@media (max-width: 1100px) {
+    .top-card {
+        grid-template-columns: 300px 1fr 260px;
+    }
+}
+
+@media (max-width: 900px) {
+    .top-card {
+        grid-template-columns: 1fr;
+    }
+
+    .top-card__image-col {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .top-card__info-col {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .bottom-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .highlights-row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .buy-area {
+        width: 100%;
+    }
+
+    .buy-btn {
+        flex: 1;
+    }
+}
+/* BADGE ROW */
+
+.badge-row{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+/* RANK BADGE */
+
+.badge-rank{
+    background:rgba(255,215,0,0.12);
+    color:#facc15;
+    border:1px solid rgba(250,204,21,0.25);
+    padding:10px 16px;
+    border-radius:14px;
+    font-size:14px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+/* SIMILARITY BADGE */
+
+.badge-similarity{
+    background:rgba(34,211,238,0.12);
+    color:#22d3ee;
+    border:1px solid rgba(34,211,238,0.25);
+    padding:10px 16px;
+    border-radius:14px;
+    font-size:14px;
+    font-weight:600;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
