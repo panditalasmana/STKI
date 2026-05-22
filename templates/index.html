@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Laptop Finder</title>
+
+    <!-- BOOTSTRAP -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- AOS ANIMATION -->
+
+    <link
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+        rel="stylesheet"
+    />
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+    <!-- FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="/">
+                LaptopFinder
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero-section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- LEFT -->
+
+                <div
+                    class="col-lg-6"
+                    data-aos="fade-right"
+                >
+
+                    <span class="badge-custom">
+                        SMART SEARCH SYSTEM
+                    </span>
+
+                    <h1 class="hero-title">
+                        Find Your Perfect Laptop
+                    </h1>
+
+                    <p class="hero-text">
+
+                        Cari laptop terbaik sesuai kebutuhan gaming,
+                        editing, kuliah, office, dan programming
+                        menggunakan teknologi TF-IDF &
+                        Cosine Similarity.
+
+                    </p>
+
+                    <!-- SEARCH -->
+
+                    <form
+                        method="POST"
+                        class="search-form"
+                        action="#results"
+                    >
+
+                        <div class="search-wrapper">
+
+                            <input
+                                type="text"
+                                name="query"
+                                class="search-input"
+                                placeholder="Cari laptop gaming RTX murah..."
+                                required
+                            >
+
+                            <button
+                                type="submit"
+                                class="search-btn"
+                            >
+                                Cari
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                    <!-- POPULAR SEARCH -->
+
+                    <div class="mt-4">
+
+                        <small class="text-secondary">
+                            Popular Search:
+                        </small>
+
+                        <div class="mt-2 d-flex gap-2 flex-wrap">
+
+                            <span class="badge-type">
+                                gaming
+                            </span>
+
+                            <span class="badge-type">
+                                mahasiswa
+                            </span>
+
+                            <span class="badge-type">
+                                editing
+                            </span>
+
+                            <span class="badge-type">
+                                office
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <div
+                    class="col-lg-6 text-center"
+                    data-aos="fade-left"
+                >
+
+                    <!-- HERO IMAGE -->
+
+                    <img
+                        src="{{ url_for('static', filename='images/home2.jpg') }}"
+                        class="hero-image"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div
+                    class="col-lg-4 mb-4"
+                    data-aos="fade-up"
+                >
+
+                    <div class="laptop-card p-4">
+
+                        <h3>
+                            TF-IDF
+                        </h3>
+
+                        <p class="mt-3">
+
+                            Digunakan untuk menghitung bobot
+                            kata penting pada deskripsi laptop.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="col-lg-4 mb-4"
+                    data-aos="fade-up"
+                >
+
+                    <div class="laptop-card p-4">
+
+                        <h3>
+                            Cosine Similarity
+                        </h3>
+
+                        <p class="mt-3">
+
+                            Mengukur tingkat kemiripan query
+                            pengguna dengan data laptop.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="col-lg-4 mb-4"
+                    data-aos="fade-up"
+                >
+
+                    <div class="laptop-card p-4">
+
+                        <h3>
+                            Ranking System
+                        </h3>
+
+                        <p class="mt-3">
+
+                            Menampilkan laptop paling relevan
+                            berdasarkan skor similarity.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ALL PRODUCTS -->
+
+    {% if not results %}
+
+    <section class="result-section">
+
+        <div class="container">
+
+            <div
+                class="result-header"
+                data-aos="fade-up"
+            >
+
+                <h2>
+                    Semua Produk Laptop
+                </h2>
+
+                <p>
+                    Menampilkan seluruh laptop dari dataset
+                </p>
+
+            </div>
+
+            <div class="row">
+
+                {% for item in all_products %}
+
+                <div
+                    class="col-lg-4 col-md-6 mb-4"
+                    data-aos="zoom-in"
+                >
+
+                    <div class="laptop-card">
+
+                        <!-- IMAGE -->
+
+                        <img
+                            src="{{ url_for('static', filename='images/home.jpg') }}"
+                            class="card-image"
+                        >
+
+                        <!-- CONTENT -->
+
+                        <div class="card-content">
+
+                            <div class="top-info">
+
+                                <span class="badge-type">
+                                    Laptop
+                                </span>
+
+                            </div>
+
+                            <h3>
+                                {{ item.nama }}
+                            </h3>
+
+                            <h4>
+                                {{ item.harga }}
+                            </h4>
+
+                            <p>
+                                {{ item.deskripsi }}
+                            </p>
+
+                            <a
+                                href="/detail/{{ item.id }}"
+                                class="detail-btn text-decoration-none text-center d-block"
+                            >
+                                View Detail
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+    </section>
+
+    {% endif %}
+
+    <!-- RESULT SECTION -->
+
+    <section class="result-section" id="results">
+
+        <div class="container">
+
+            {% if results %}
+
+            <!-- HEADER -->
+
+            <div
+                class="result-header"
+                data-aos="fade-up"
+            >
+
+                <h2>
+                    Hasil Pencarian
+                </h2>
+
+                <p>
+
+                    Query:
+                    <span>{{ query }}</span>
+
+                </p>
+
+            </div>
+
+            <!-- CARDS -->
+
+            <div class="row">
+
+                {% for item in results %}
+
+                <div
+                    class="col-lg-4 col-md-6 mb-4"
+                    data-aos="zoom-in"
+                >
+
+                    <div class="laptop-card">
+
+                        <!-- IMAGE -->
+
+                        <img
+                            src="{{ url_for('static', filename='images/home.jpg') }}"
+                            class="card-image"
+                        >
+
+                        <!-- CONTENT -->
+
+                        <div class="card-content">
+
+                            <!-- TOP INFO -->
+
+                            <div class="top-info">
+
+                                <span class="badge-type">
+
+                                    Rank #{{ item.rank }}
+
+                                </span>
+
+                                <span class="score">
+
+                                    Similarity {{ item.score }}
+
+                                </span>
+
+                            </div>
+
+                            <h3>
+
+                                {{ item.nama }}
+
+                            </h3>
+
+                            <h4>
+
+                                {{ item.harga }}
+
+                            </h4>
+
+                            <div class="ranking-box">
+
+                                <span>
+
+                                    Ranking:
+                                    <strong>
+                                        #{{ item.rank }}
+                                    </strong>
+
+                                </span>
+
+                            </div>
+
+                            <p>
+
+                                {{ item.deskripsi }}
+
+                            </p>
+
+                            <a
+                                href="/detail/{{ item.id }}"
+                                class="detail-btn text-decoration-none text-center d-block"
+                            >
+                                View Detail
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+            {% endif %}
+
+        </div>
+
+    </section>
+
+    <!-- EVALUATION SECTION -->
+
+    <section
+        class="result-section"
+        data-aos="fade-up"
+    >
+
+        <div class="container">
+
+            <div class="result-header text-center">
+
+                <h2>
+                    Evaluation Result
+                </h2>
+
+                <p>
+                    Precision@10 Testing dari 10 Query
+                </p>
+
+            </div>
+
+            <!-- TABLE -->
+
+            <div class="table-responsive">
+
+                <table class="table table-dark table-striped table-bordered">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>No</th>
+                            <th>Query</th>
+                            <th>Precision@10</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for item in evaluation_data %}
+
+                        <tr>
+
+                            <td>
+                                {{ loop.index }}
+                            </td>
+
+                            <td>
+                                {{ item.query }}
+                            </td>
+
+                            <td>
+                                {{ item.precision }}
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <!-- AVERAGE -->
+
+            <div class="text-center mt-4">
+
+                <h3>
+
+                    Average Precision:
+                    <span class="text-info">
+                        {{ average_precision }}
+                    </span>
+
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="py-4 text-center">
+
+        <div class="container">
+
+            <p class="text-secondary">
+
+                Created By Kelompok STKI • 2026
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- AOS JS -->
+
+    <script
+        src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+
+    <script>
+
+        AOS.init({
+
+            duration: 1200,
+
+            once: true
+
+        });
+
+    </script>
+
+</body>
+
+</html>
